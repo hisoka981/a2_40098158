@@ -15,8 +15,15 @@ body {
 }
 
 .header {
-    height: 70px;
+    height: 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: auto;
 }
 
 .content {
@@ -25,7 +32,8 @@ body {
 }
 
 .footer {
-    height: 70px;
+    height: 40px;
+    background-color: rgb(114, 111, 111)
 }
 
 .sidemenu {
@@ -61,4 +69,9 @@ li a:hover {
 
 li a.active {
     background-color: green;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
 }
