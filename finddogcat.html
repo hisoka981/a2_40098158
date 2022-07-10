@@ -16,7 +16,38 @@
                 <!-- picture taken from https://www.pexels.com/photo/orange-tabby-cat-near-window-2071873/-->
             </div>
             <div class="content">
-                <p>contentcontentcontentcontentcontentcontent</p>
+                <h4>Would you like to look for a dog or cat? Fill out the form below!</h4>
+                <form action="">
+                    <label for="type">What kind of pet are you looking for?</label>
+                    <select id="type" name="type">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select><br><br>
+                    <label for="breed">What breed do you prefer?</label>
+                    <select id="breed" name="breed">
+                        <option value="pomeranian">Pomerianian</option>
+                        <option value="husky">Husky</option>
+                        <option value="shiba">Shiba</option>
+                        <option value="persian">Persian</option>
+                        <option value="bengal">Bengal</option>
+                        <option value="siamese">Siamese</option>
+                        <option value="other">Does not matter</option>
+                    </select><br><br>
+                    <label for="age">Age preference?</label>
+                    <select id="age" name="age">
+                        <option value="under1">Under 1 years old</option>
+                        <option value="1to2">1 to 2 years old</option>
+                        <option value="2 to 4">2 to 4 years old</option>
+                        <option value="other">Does not matter</option>
+                    </select><br><br>
+                    <label for="friendliness">Should the pet get along with others?</label>
+                    <select id="friendliness" name="friendliness">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
             </div>
             <div class="footer">
                 <a href="privacy.html">Privacy</a>

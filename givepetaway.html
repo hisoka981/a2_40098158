@@ -16,7 +16,56 @@
                 <!-- picture taken from https://www.pexels.com/photo/orange-tabby-cat-near-window-2071873/-->
             </div>
             <div class="content">
-                <p>contentcontentcontentcontentcontentcontent</p>
+                <h4>Do you have a pet you would like to giveaway? Fill out the form below!</h4>
+                <form action="">
+                    <label for="type">What kind of pet are you giving away?</label>
+                    <select id="type" name="type">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select><br><br>
+                    <label for="breed">What breed is your pet?</label>
+                    <select id="breed" name="breed">
+                        <option value="pomeranian">Pomerianian</option>
+                        <option value="husky">Husky</option>
+                        <option value="shiba">Shiba</option>
+                        <option value="persian">Persian</option>
+                        <option value="bengal">Bengal</option>
+                        <option value="siamese">Siamese</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                    <label for="age">How old is your pet?</label>
+                    <select id="age" name="age">
+                        <option value="under1">Under 1 years old</option>
+                        <option value="1to2">1 to 2 years old</option>
+                        <option value="2 to 4">2 to 4 years old</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                    <label for="catfriendly">Does your pet get along with other cats?</label>
+                    <select id="catfriendly" name="catfriendly">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    <label for="dogfriendly">Does your pet get along with other dogs?</label>
+                    <select id="dogfriendly" name="dogfriendly">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    <label for="kidfriendly">Does your pet get along with kids?</label>
+                    <select id="kidfriendly" name="kidfriendly">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                    <label for="details">Tell us more about your pet (optional)</label><br>
+                    <textarea name="details" rows="10" cols="30"></textarea><br><br>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
             </div>
             <div class="footer">
                 <a href="privacy.html">Privacy</a>
