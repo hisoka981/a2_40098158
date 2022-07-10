@@ -108,3 +108,10 @@ li a.active {
     height: 250px;
     width: auto;
 }
+
+.selection {
+    background-color:#618c56;
+    color: #faf1e4;
+    border-radius: 6px;
+    padding: 2px;
+}
